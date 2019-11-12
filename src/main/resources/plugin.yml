@@ -1,0 +1,10 @@
+name: MlntcandyRawBroadcast
+version: ${project.version}
+main: io.github.mlntcandy.rawbroadcast.RawBroadcast
+api-version: 1.13
+softdepend:
+  - 'DiscordSRV'
+authors: [Mlntcandy]
+commands:
+  rawbc:
+    description: description
