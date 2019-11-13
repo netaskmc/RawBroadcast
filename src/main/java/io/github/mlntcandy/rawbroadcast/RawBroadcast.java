@@ -63,8 +63,8 @@ public final class RawBroadcast extends JavaPlugin {
 
                                     //   if (getConfig().isSet(snippetName)) System.out.print("Snippet set");
                                     //   if (getConfig().isString(snippetName)) System.out.print("Snippet is a string");
-                                    //   Полин, короче я не знаю что тебе делать, но если уже ебать крышу сносит советую задуматься о своей девственности.
-                                    //      Ты хочешь хуй. Я хочу хуй. Но ты любишь мужиков, а я нет? Короче варик такой, выебешь меня страпоном??
+                                    
+                                    
                                     if (getConfig().isSet(snippetName) && getConfig().isString(snippetName)) {
                                         String snippetString = getConfig().getString(snippetName);
                                         StringBuilder message = new StringBuilder();
