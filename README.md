@@ -14,7 +14,7 @@ Typing `/rawbc snippet TestSnippet 1st element!,2nd e, *third element*,4th one..
 [10:20:30 INFO]: This is a test snippet! 1st element! and 2nd e are first two arguments! 4th one... is a fourth arg; and also *third element* is in fact an argument, but third.
 [10:20:30 INFO]: Success!
 ```
-where TestSnippet is a snippet that was defined in config.yml:
+where `TestSnippet` is a snippet that was defined in config.yml:
 ```
 TestSnippet: '&6This is a test snippet! {0} and {1} are first two arguments! {3} is a fourth arg; and also {2} is in fact an argument, but third.'
 ```
@@ -28,6 +28,8 @@ You can also define your own snippets;
 ## DiscordSRV
 `DiscordSRVPrefix: ""` is to assign a prefix to broadcast your messages to Discord.
 You can use it to mark announcements with an emoji or prefix.
-`## 10:15 AM [BOT] Minecraft Chat: 🔔 Hey there! RawBroadcast works!`
+```
+## 10:15 AM [BOT] Minecraft Chat: 🔔 Hey there! RawBroadcast works!
+```
 
 (`DiscordSRVPrefix: ":bell: "`)
