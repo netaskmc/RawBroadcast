@@ -15,11 +15,13 @@ Typing `/rawbc snippet TestSnippet 1st element!,2nd e, *third element*,4th one..
 [10:20:30 INFO]: Success!
 ```
 where TestSnippet is a snippet that was defined in config.yml:
-```TestSnippet: '&6This is a test snippet! {0} and {1} are first two arguments! {3} is a fourth arg; and also {2} is in fact an argument, but third.'```
+```
+TestSnippet: '&6This is a test snippet! {0} and {1} are first two arguments! {3} is a fourth arg; and also {2} is in fact an argument, but third.'
+```
 
 Placeholders were replaced in order in which numbers are increasing.
-You can also define your own snippets (of course, that's the whole purpose);
-**Values in command are separated by comma only. Leaving a space in both places will result unpretty double-space :)**
+You can also define your own snippets;
+### Values in command are separated by comma only. Leaving a space in both places will result this sucky double-space
 
 `Success!` is only visible to you (to sender).
 
